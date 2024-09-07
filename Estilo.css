@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gameboard{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.color_celeste_left{
+    background-color: aqua;
+    
+}
+.color_violeta_right{
+    background-color: blueviolet;
+}
+.color_naranja_left{
+    background-color: violet;
+}
+.color_verde_right{
+    background-color: yellow;
+}
+.btn-start{
+    position: relative;
+    top: 30px;
+    height: 25px;
+    width: 180px;
+    background-color: brown;
+    color: white;
+    margin-left: 125px;
+}
